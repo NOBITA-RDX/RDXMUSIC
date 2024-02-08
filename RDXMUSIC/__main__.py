@@ -36,7 +36,7 @@ async def init():
     await app.start()
     for all_module in ALL_MODULES:
         importlib.import_module("RDXMUSIC.plugins" + all_module)
-    LOGGER("RDXMUSIC.plugins").info("ᴀᴋʟ ғᴇᴀᴛᴜʀᴇs ʟᴏᴅᴇᴅ ʙᴀʙʏ❀.....")
+    LOGGER("RDXMUSIC.plugins").info("ᴀʟʟ ғᴇᴀᴛᴜʀᴇs ʟᴏᴅᴇᴅ ʙᴀʙʏ.....")
     await userbot.start()
     await RDX.start()
     try:
@@ -50,7 +50,7 @@ async def init():
         pass
     await RDX.decorators()
     LOGGER("RDXMUSIC").info(
-        "⭒☆•────•°•❀•°•────•☆⭒\n  ❀︎︎ ᴍᴀᴅᴇ ʙʏ ʀᴅx ʀᴀᴊ❀︎︎\n⭒☆•────•°•❀•°•────•☆⭒"
+        "⭒☆•────•°•❀•°•────•☆⭒\n  🥀 ᴍᴀᴅᴇ ʙʏ ʀᴅx ʀᴀᴊ🥀\n⭒☆•────•°•❀•°•────•☆⭒"
     )
     await idle()
     await app.stop()
