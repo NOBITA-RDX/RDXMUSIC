@@ -3,8 +3,8 @@ from pyrogram import filters
 from pyrogram.enums import ChatType
 from pyrogram.errors import MessageDeleteForbidden, RPCError
 from pyrogram.types import Message
-from RDX.utils.rdx_ban import admin_filter
-from RDX import app
+from RDXMUSIC.utils.rdx_ban import admin_filter
+from RDXMUSIC import app
 
 
 @app.on_message(filters.command("purge") & admin_filter)
