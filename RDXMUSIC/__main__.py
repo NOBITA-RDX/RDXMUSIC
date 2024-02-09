@@ -55,7 +55,7 @@ async def init():
     await idle()
     await app.stop()
     await userbot.stop()
-    LOGGER("RDXMUSIC").info("sᴛᴏᴘ ʀᴅx ᴍᴜsɪᴄ ♪ ʙᴏᴛ..")
+    LOGGER("RDXMUSIC").info("sᴛᴏᴘ ʀᴅx ᴍᴜsɪᴄ ʙᴏᴛ..")
 
 
 if __name__ == "__main__":
