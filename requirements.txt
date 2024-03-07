@@ -49,4 +49,4 @@ gpytranslate
 openai==0.28.0
 img2pdf
 pickledb
-python-telegram-bot==20.7
+python-telegram-bot==21.0.1
